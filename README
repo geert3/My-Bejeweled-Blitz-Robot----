@@ -1,7 +1,45 @@
-WARNING
-this is very quick and very dirty code, never intended to be published
+FIRST WARNING
+-------------
+this is very quick and very dirty code, never intended to be published,
 never even meant to live longer than a day or two on my own PC.
 I've put it here anyway since some people asked for it. 
 So there you go. Do anything you like to/with it.
 But __please__ don't judge my coding skills on this. 
 In real life I DO comment my code. Honestly.
+(END OF FIRST WARNING)
+
+SECOND WARNING
+--------------
+This code is a "robot" application. If you run it, and hit the "start" button, it will take over your
+mouse for the duration of "one minute" (in the famous Bejeweled Blitz dark voice).
+It will start clicking like hell to get a good score, but the flipside is that if you're not
+currently on a bejeweled play field, it may click anything else in sight.
+This may have bad consequences, and it's VERY hard to stop it while your mouse pointer is going crazy.
+An emergency break key combination would have been a good idea but life's too short to be careful.
+So be careful.
+(END OF SECOND WARNING)
+
+HOW TO BUILD
+------------
+The folder "JewelRobot" is in fact an Eclipse project, but you may just as well compile the stuff in
+"JewelRobot/src" by hand, and run the main class "JewelRobot.class"
+
+HOW TO USE
+----------
+- surf to the Bejeweled Blitz page, until you see the play field.
+- run the JewelRobot. It will open a window, showing a rectangular portion of your screen.
+- move the browser so that the play field completely falls within the rectangular portion copied by the Robot.
+  (this is the manual calibration - if you fail here, you'll get lousy scores!)
+- Now hit the "play" button in the browser, and then the "start" button in the Robot window.
+- the small grid in the Robot's window is a view of what he thinks he "sees" in the play field. 
+  Keep an eye on that to see if you've calibrated well enough.
+- Watch that score reach 1 million points while you're sipping your cola ;-)
+- EXCELLENT - AMAZING
+
+SEE A DEMO
+----------
+http://www.youtube.com/watch?v=yhNiNddHgM4
+
+WHO NOT TO BLAME
+----------------
+geert.coelmont@gmail.com
